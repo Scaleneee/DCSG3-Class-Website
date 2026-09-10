@@ -363,17 +363,10 @@ summary:focus-visible {
 
 .photo-frame {
   position: relative;
-  display: block;
-  width: 100%;
   overflow: hidden;
   aspect-ratio: 4 / 5;
   margin-bottom: 1rem;
-  padding: 0;
-  cursor: pointer;
-  appearance: none;
-  border: 0;
   background: var(--soft);
-  color: inherit;
   clip-path: polygon(1% 0, 99% 1%, 100% 99%, 0 100%);
 }
 
@@ -388,20 +381,11 @@ summary:focus-visible {
 .photo-frame img {
   width: 100%;
   height: 100%;
-  filter: grayscale(1) contrast(1.04);
   object-fit: cover;
   transition: filter 400ms ease, transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.photo-frame.is-colour img {
-  filter: grayscale(0) contrast(1.02);
-  transform: scale(1.035);
-}
 
-.photo-frame:focus-visible {
-  outline: 2px solid var(--ink);
-  outline-offset: 4px;
-}
 
 .person-index {
   margin-bottom: 0.4rem;
@@ -506,7 +490,6 @@ summary:focus-visible {
   height: 3.4rem;
   border: 1px solid var(--ink);
   border-radius: 50%;
-  filter: grayscale(1);
   object-fit: cover;
 }
 
@@ -535,14 +518,11 @@ summary:focus-visible {
 .memory-image-wrap img {
   width: 100%;
   height: 100%;
-  filter: grayscale(1);
   object-fit: cover;
   transition: transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.memory-card:hover img {
-  transform: scale(1.025);
-}
+
 
 .memory-tag {
   position: absolute;

@@ -15,12 +15,7 @@ function renderClassmates(classmates) {
     .map(
       (person, index) => `
         <article class="person-card">
-          <button
-            class="photo-frame"
-            type="button"
-            aria-pressed="false"
-            aria-label="Show colour portrait of ${person.name}"
-          >
+          <div class="photo-frame">
             <img
               src="${person.photo}"
               alt="Portrait of ${person.name}"
@@ -28,7 +23,7 @@ function renderClassmates(classmates) {
               width="400"
               height="500"
             />
-          </button>
+          </div>
           <p class="person-index">${String(index + 1).padStart(2, "0")}</p>
           <h3>${person.name}</h3>
           <p>${person.comment}</p>
@@ -38,24 +33,6 @@ function renderClassmates(classmates) {
     .join("");
 }
 
-// Portraits use a real button so tapping, clicking, Enter, and Space all work naturally.
-function setupPortraitToggle() {
-  const list = document.querySelector("[data-people-list]");
-
-  list.addEventListener("click", (event) => {
-    const photoButton = event.target.closest(".photo-frame");
-    if (!photoButton) return;
-
-    const isColour = photoButton.classList.toggle("is-colour");
-    const personName = photoButton.querySelector("img").alt.replace("Portrait of ", "");
-
-    photoButton.setAttribute("aria-pressed", String(isColour));
-    photoButton.setAttribute(
-      "aria-label",
-      `${isColour ? "Show black-and-white" : "Show colour"} portrait of ${personName}`,
-    );
-  });
-}
 
 function renderGroups(groups) {
   const list = document.querySelector("[data-group-list]");
@@ -111,6 +88,7 @@ function renderMemories(memories) {
     )
     .join("");
 }
+
 
 function setTheme(theme) {
   const root = document.documentElement;
@@ -168,7 +146,6 @@ async function initialiseSite() {
 
     state.classData = await response.json();
     renderClassmates(state.classData.classmates);
-    setupPortraitToggle();
     renderGroups(state.classData.groups);
     renderMemories(state.classData.memories);
     setupRevealAnimation();

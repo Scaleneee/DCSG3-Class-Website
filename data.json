@@ -1,9 +1,9 @@
 {
   "classmates": [
     { "id": 1, "name": "Brian Chew Qi Heng", "comment": "Turns rough ideas into thoughtful interfaces.", "photo": "./assets/portraits/student-01.jpg" },
-    { "id": 2, "name": "Amir Hakim", "comment": "The debugger everyone calls before midnight.", "photo": "./assets/portraits/student-02.jpg" },
-    { "id": 3, "name": "Brandon Lee", "comment": "Always ready with a cleaner algorithm.", "photo": "./assets/portraits/student-03.jpg" },
-    { "id": 4, "name": "Chloe Tan", "comment": "Brings calm energy to every team meeting.", "photo": "./assets/portraits/student-04.jpg" },
+    { "id": 2, "name": "Teh Hui En", "comment": "The debugger everyone calls before midnight.", "photo": "./assets/portraits/student-02.jpg" },
+    { "id": 3, "name": "Lim Yii Jun", "comment": "Always ready with a cleaner algorithm.", "photo": "./assets/portraits/student-03.jpg" },
+    { "id": 4, "name": "Ng Ying Zhe", "comment": "Brings calm energy to every team meeting.", "photo": "./assets/portraits/student-04.jpg" },
     { "id": 5, "name": "Daniel Wong", "comment": "Can explain a hard concept in one diagram.", "photo": "./assets/portraits/student-05.jpg" },
     { "id": 6, "name": "Elyana Noor", "comment": "Makes every presentation feel effortless.", "photo": "./assets/portraits/student-06.jpg" },
     { "id": 7, "name": "Farid Zain", "comment": "Quiet focus, consistently brilliant results.", "photo": "./assets/portraits/student-07.jpg" },
@@ -41,21 +41,21 @@
       "title": "The library takeover",
       "date": "12 FEB 2026",
       "comment": "One table became three, snacks appeared, and somehow the assignment was finished before closing time.",
-      "photo": "./assets/memory-library.png",
+      "photo": "./assets/memory-library-color.png",
       "alt": "Classmates studying and laughing around a library table"
     },
     {
       "title": "Between classes",
       "date": "04 APR 2026",
       "comment": "The walk back from lunch that turned into one of our favourite afternoons.",
-      "photo": "./assets/memory-campus.png",
+      "photo": "./assets/memory-campus-color.png",
       "alt": "Classmates laughing together in a campus courtyard"
     },
     {
       "title": "Demo day",
       "date": "28 JUN 2026",
       "comment": "Nerves, last-minute fixes, and the proud silence right before the applause.",
-      "photo": "./assets/memory-demo.png",
+      "photo": "./assets/memory-demo-color.png",
       "alt": "Students presenting a class project in a bright classroom"
     }
   ]
