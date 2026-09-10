@@ -25,10 +25,7 @@
     { "id": 23, "name": "Vincent Yap", "comment": "Makes ambitious builds look manageable.", "photo": "./assets/portraits/student-23.jpg" },
     { "id": 24, "name": "Wei Jian", "comment": "Thoughtful teammate and fearless problem-solver.", "photo": "./assets/portraits/student-24.jpg" },
     { "id": 25, "name": "Xavier Ong", "comment": "Finds elegant fixes for messy problems.", "photo": "./assets/portraits/student-25.jpg" },
-    { "id": 26, "name": "Yasmin Ali", "comment": "Creative ideas, carefully brought to life.", "photo": "./assets/portraits/student-26.jpg" },
-    { "id": 27, "name": "Zachary Teo", "comment": "The calm one when the build breaks.", "photo": "./assets/portraits/student-27.jpg" },
-    { "id": 28, "name": "Sara Khong", "comment": "Brings warmth, wit, and excellent notes.", "photo": "./assets/portraits/student-28.jpg" },
-    { "id": 29, "name": "Reza Firdaus", "comment": "Always learning, always helping others learn.", "photo": "./assets/portraits/student-29.jpg" }
+    { "id": 26, "name": "Yasmin Ali", "comment": "Creative ideas, carefully brought to life.", "photo": "./assets/portraits/student-26.jpg" }
   ],
   "groups": [
     { "name": "Pixel Pioneers", "members": [1, 8, 15, 22], "comment": "Design-minded builders crafting clear digital experiences." },
@@ -37,8 +34,7 @@
     { "name": "The Commit Club", "members": [4, 11, 18, 25], "comment": "Small, steady improvements—and very descriptive commit messages." },
     { "name": "Binary Bloom", "members": [5, 12, 19, 26], "comment": "Where patient research grows into polished class projects." },
     { "name": "Stack & Co.", "members": [6, 13, 20], "comment": "A compact team with full-stack ambition and generous teamwork." },
-    { "name": "Logic Loop", "members": [7, 14, 21], "comment": "They test, learn, refine, and then do it all one more time." },
-    { "name": "Ctrl Collective", "members": [27, 28, 29], "comment": "A resourceful trio who are always ready for the next challenge." }
+    { "name": "Logic Loop", "members": [7, 14, 21], "comment": "They test, learn, refine, and then do it all one more time." }
   ],
   "memories": [
     {
