@@ -608,13 +608,11 @@ summary:focus-visible {
 
 @media (max-width: 43.99rem) {
   .site-header {
-    grid-template-areas:
-      "brand toggle"
-      "nav nav";
-    grid-template-rows: auto auto;
-    row-gap: 0.55rem;
-    min-height: 6.25rem;
-    padding-block: 0.65rem 0.75rem;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "brand nav toggle";
+    column-gap: 0.5rem;
+    min-height: 4.5rem;
+    padding: 0 0.75rem;
   }
 
   .brand {
@@ -624,9 +622,9 @@ summary:focus-visible {
   .nav-links {
     display: flex;
     grid-area: nav;
-    width: 100%;
-    gap: 0.75rem;
-    justify-content: space-between;
+    min-width: 0;
+    gap: clamp(0.35rem, 2vw, 0.75rem);
+    justify-content: center;
     font-size: 0.875rem;
   }
 
@@ -636,11 +634,11 @@ summary:focus-visible {
   }
 
   .hero {
-    min-height: calc(100svh - 6.25rem);
+    min-height: calc(100svh - 4.5rem);
   }
 
   .content-section {
-    scroll-margin-top: 6.25rem;
+    scroll-margin-top: 4.5rem;
   }
 }
 
