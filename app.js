@@ -111,6 +111,40 @@ function setupThemeToggle() {
   });
 }
 
+// The compact phone menu keeps the header clear until its arrow is tapped.
+function setupMobileNavigation() {
+  const header = document.querySelector(".site-header");
+  const toggle = document.querySelector(".mobile-nav-toggle");
+  const navigation = document.querySelector(".nav-links");
+
+  if (!header || !toggle || !navigation) return;
+
+  const setMenuOpen = (isOpen) => {
+    header.classList.toggle("is-nav-open", isOpen);
+    toggle.setAttribute("aria-expanded", String(isOpen));
+    toggle.setAttribute("aria-label", `${isOpen ? "Close" : "Open"} page navigation`);
+  };
+
+  toggle.addEventListener("click", () => {
+    setMenuOpen(toggle.getAttribute("aria-expanded") !== "true");
+  });
+
+  navigation.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setMenuOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+      setMenuOpen(false);
+      toggle.focus();
+    }
+  });
+
+  window.matchMedia("(min-width: 44rem)").addEventListener("change", (event) => {
+    if (event.matches) setMenuOpen(false);
+  });
+}
+
 // Elements animate only when they approach the viewport, keeping the page light on mobile.
 function setupRevealAnimation() {
   const items = document.querySelectorAll(".reveal, .person-card, .group-card, .memory-card");
@@ -139,6 +173,7 @@ function setupRevealAnimation() {
 
 async function initialiseSite() {
   setupThemeToggle();
+  setupMobileNavigation();
 
   try {
     const response = await fetch(DATA_URL);
