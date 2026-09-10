@@ -1,5 +1,6 @@
 // DCSG3 is intentionally data-driven: replace data.json to update the page content.
-const DATA_URL = "./data.json";
+// const DATA_URL = "./data.json";
+const DATA_URL = `./data.json?v=${Date.now()}`;
 
 const state = {
   classData: null,
