@@ -1,0 +1,66 @@
+{
+  "classmates": [
+    { "id": 1, "name": "Aina Rahman", "comment": "Turns rough ideas into thoughtful interfaces.", "photo": "./assets/portraits/student-01.jpg" },
+    { "id": 2, "name": "Amir Hakim", "comment": "The debugger everyone calls before midnight.", "photo": "./assets/portraits/student-02.jpg" },
+    { "id": 3, "name": "Brandon Lee", "comment": "Always ready with a cleaner algorithm.", "photo": "./assets/portraits/student-03.jpg" },
+    { "id": 4, "name": "Chloe Tan", "comment": "Brings calm energy to every team meeting.", "photo": "./assets/portraits/student-04.jpg" },
+    { "id": 5, "name": "Daniel Wong", "comment": "Can explain a hard concept in one diagram.", "photo": "./assets/portraits/student-05.jpg" },
+    { "id": 6, "name": "Elyana Noor", "comment": "Makes every presentation feel effortless.", "photo": "./assets/portraits/student-06.jpg" },
+    { "id": 7, "name": "Farid Zain", "comment": "Quiet focus, consistently brilliant results.", "photo": "./assets/portraits/student-07.jpg" },
+    { "id": 8, "name": "Grace Lim", "comment": "Keeps the group organised and optimistic.", "photo": "./assets/portraits/student-08.jpg" },
+    { "id": 9, "name": "Hafiz Ismail", "comment": "Finds the fun in every impossible deadline.", "photo": "./assets/portraits/student-09.jpg" },
+    { "id": 10, "name": "Izzah Nabila", "comment": "Design instincts backed by precise code.", "photo": "./assets/portraits/student-10.jpg" },
+    { "id": 11, "name": "Jason Goh", "comment": "Asks the question that unlocks the answer.", "photo": "./assets/portraits/student-11.jpg" },
+    { "id": 12, "name": "Kavitha Devi", "comment": "Patient, perceptive, and always prepared.", "photo": "./assets/portraits/student-12.jpg" },
+    { "id": 13, "name": "Luqman Faiz", "comment": "A natural builder with endless curiosity.", "photo": "./assets/portraits/student-13.jpg" },
+    { "id": 14, "name": "Mei Xin", "comment": "Notices every detail others miss.", "photo": "./assets/portraits/student-14.jpg" },
+    { "id": 15, "name": "Nadia Sofea", "comment": "Turns group chats into actual progress.", "photo": "./assets/portraits/student-15.jpg" },
+    { "id": 16, "name": "Owen Cheah", "comment": "The first to volunteer for a live demo.", "photo": "./assets/portraits/student-16.jpg" },
+    { "id": 17, "name": "Priya Nair", "comment": "Makes complex systems feel beautifully simple.", "photo": "./assets/portraits/student-17.jpg" },
+    { "id": 18, "name": "Qayyum Idris", "comment": "Reliable code and even better playlists.", "photo": "./assets/portraits/student-18.jpg" },
+    { "id": 19, "name": "Rachel Chong", "comment": "A sharp eye for both logic and layout.", "photo": "./assets/portraits/student-19.jpg" },
+    { "id": 20, "name": "Syafiq Roslan", "comment": "Keeps trying until every test turns green.", "photo": "./assets/portraits/student-20.jpg" },
+    { "id": 21, "name": "Tasha Low", "comment": "The friendliest voice in any discussion.", "photo": "./assets/portraits/student-21.jpg" },
+    { "id": 22, "name": "Umairah Aziz", "comment": "Always has a plan—and a backup plan.", "photo": "./assets/portraits/student-22.jpg" },
+    { "id": 23, "name": "Vincent Yap", "comment": "Makes ambitious builds look manageable.", "photo": "./assets/portraits/student-23.jpg" },
+    { "id": 24, "name": "Wei Jian", "comment": "Thoughtful teammate and fearless problem-solver.", "photo": "./assets/portraits/student-24.jpg" },
+    { "id": 25, "name": "Xavier Ong", "comment": "Finds elegant fixes for messy problems.", "photo": "./assets/portraits/student-25.jpg" },
+    { "id": 26, "name": "Yasmin Ali", "comment": "Creative ideas, carefully brought to life.", "photo": "./assets/portraits/student-26.jpg" },
+    { "id": 27, "name": "Zachary Teo", "comment": "The calm one when the build breaks.", "photo": "./assets/portraits/student-27.jpg" },
+    { "id": 28, "name": "Sara Khong", "comment": "Brings warmth, wit, and excellent notes.", "photo": "./assets/portraits/student-28.jpg" },
+    { "id": 29, "name": "Reza Firdaus", "comment": "Always learning, always helping others learn.", "photo": "./assets/portraits/student-29.jpg" }
+  ],
+  "groups": [
+    { "name": "Pixel Pioneers", "members": [1, 8, 15, 22], "comment": "Design-minded builders crafting clear digital experiences." },
+    { "name": "Syntax Society", "members": [2, 9, 16, 23], "comment": "Four curious minds with a talent for making code behave." },
+    { "name": "Runtime Crew", "members": [3, 10, 17, 24], "comment": "Fast thinkers who turn complex logic into working prototypes." },
+    { "name": "The Commit Club", "members": [4, 11, 18, 25], "comment": "Small, steady improvements—and very descriptive commit messages." },
+    { "name": "Binary Bloom", "members": [5, 12, 19, 26], "comment": "Where patient research grows into polished class projects." },
+    { "name": "Stack & Co.", "members": [6, 13, 20], "comment": "A compact team with full-stack ambition and generous teamwork." },
+    { "name": "Logic Loop", "members": [7, 14, 21], "comment": "They test, learn, refine, and then do it all one more time." },
+    { "name": "Ctrl Collective", "members": [27, 28, 29], "comment": "A resourceful trio who are always ready for the next challenge." }
+  ],
+  "memories": [
+    {
+      "title": "The library takeover",
+      "date": "12 FEB 2026",
+      "comment": "One table became three, snacks appeared, and somehow the assignment was finished before closing time.",
+      "photo": "./assets/memory-library.png",
+      "alt": "Classmates studying and laughing around a library table"
+    },
+    {
+      "title": "Between classes",
+      "date": "04 APR 2026",
+      "comment": "The walk back from lunch that turned into one of our favourite afternoons.",
+      "photo": "./assets/memory-campus.png",
+      "alt": "Classmates laughing together in a campus courtyard"
+    },
+    {
+      "title": "Demo day",
+      "date": "28 JUN 2026",
+      "comment": "Nerves, last-minute fixes, and the proud silence right before the applause.",
+      "photo": "./assets/memory-demo.png",
+      "alt": "Students presenting a class project in a bright classroom"
+    }
+  ]
+}
