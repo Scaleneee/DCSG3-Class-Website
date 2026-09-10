@@ -1,6 +1,6 @@
 {
   "classmates": [
-    { "id": 1, "name": "Aina Rahman", "comment": "Turns rough ideas into thoughtful interfaces.", "photo": "./assets/portraits/student-01.jpg" },
+    { "id": 1, "name": "Brian Chew Qi Heng", "comment": "Turns rough ideas into thoughtful interfaces.", "photo": "./assets/portraits/student-01.jpg" },
     { "id": 2, "name": "Amir Hakim", "comment": "The debugger everyone calls before midnight.", "photo": "./assets/portraits/student-02.jpg" },
     { "id": 3, "name": "Brandon Lee", "comment": "Always ready with a cleaner algorithm.", "photo": "./assets/portraits/student-03.jpg" },
     { "id": 4, "name": "Chloe Tan", "comment": "Brings calm energy to every team meeting.", "photo": "./assets/portraits/student-04.jpg" },
